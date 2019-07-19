@@ -17,7 +17,12 @@ var bornDay = Math.round( ( ( (CC/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/1
 var changeLabel = function () {
     for(var i=1; i<=daysOfWeek.length; i++)
     {
-        if()
+        if((bornDay==i)&&(gender=="male")){
+            result="You were born on "+daysOfWeek[i-1]+". So, your name should be "+maleNames[i-1];  
+        }
+        else if((bornDay==i)&&(gender=="female")){
+            result="You were born on "+daysOfWeek[i-1]+". So, your name should be "+femaleNames[i-1];
+        }
     }
 }
 
