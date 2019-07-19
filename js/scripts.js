@@ -9,7 +9,15 @@ var birthday = calend.split("-");
 var year=parseInt(birthday[0]);
 var month=parseInt(birthday[1]);
 var day= parseInt(birthday[2]);
+
+var cc = Math.round((year-1)/(100+1));
+var bornDay = Math.round( ( ( (CC/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7);
+
+
 var changeLabel = function () {
-    document.getElementById('result').innerHTML = "Kwame";
+    for(var i=1; i<=daysOfWeek.length; i++)
+    {
+        if()
+    }
 }
 
