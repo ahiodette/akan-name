@@ -1,0 +1,21 @@
+.jumbotron{
+    background-color: aliceblue;
+    box-shadow: 5px 0 5px 0;
+}
+.jumbotron>h1{
+    color: blue;
+    text-align: center;
+    font-size: 28px;
+}
+.forms{
+    text-align: center;
+}
+.forms>p, .forms>form{
+font-size: 22px;
+}
+form{
+    border: 3px solid aliceblue;
+}
+button{
+    background-color: lightblue;
+}
