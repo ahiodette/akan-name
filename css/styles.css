@@ -1,3 +1,7 @@
+html{
+    background-image: url('https://www.shutterstock.com/image-photo/little-child-smiling-happy-mom-1415926082');
+    background-size: cover; 
+}
 .jumbotron{
     background-color: aliceblue;
     box-shadow: 5px 0 5px 0;
@@ -15,7 +19,11 @@ font-size: 22px;
 }
 form{
     border: 3px solid aliceblue;
+    background-color: azure;
 }
 button{
     background-color: lightblue;
+}
+#result>p{
+    color: blue;
 }
