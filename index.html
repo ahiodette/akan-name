@@ -18,25 +18,27 @@
                 an ancestor's middle name. You, also can check and know which name should be given to you, if you were
                 Ghanian from Akan.
             </p>
-            <p> This system, that seems to be a game, prompts you to input your <strong><em>date of birth</em></strong> and your <strong><em>gender</em></strong>
+            <p> This system, that seems to be a game, prompts you to input your <strong><em>date of birth</em></strong> and your 
+                <strong><em>gender</em></strong>
                 and then get the name accordingly. 
             </p>
+            <div class="forms">
+                <h2>Please, fill this form in order to get your Akan name!</h2><br><br>
+                Your date of birth:
+                <input type="date" name="bday" id="bday" required="required">
+                <br><br>
+                Gender:
+                <input type="radio" name="gender" id="male" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" required>
+                <label for="female">Female</label>
+                <br><br>
+                <button onclick="giveName()">Get your akan name</button><br><br>
+                <label for="result" id="display" value="text"></label>
+                <br><br>
+            </div>
         </div>
-        <div class="forms">
-            <h2>Please, fill this form in order to get your Akan name!</h2><br><br>
-            Your date of birth:
-            <input type="date" name="bday" id="bday" required="required">
-            <br><br>
-            Gender:
-            <input type="radio" name="gender" id="male" value="male" required>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="female" value="female" required>
-            <label for="female">Female</label>
-            <br><br>
-            <button onclick="giveName()">Generate your akan name</button><br><br>
-            <label for="result" id="display" value="text"></label>
-            <br><br>
-        </div>
+        
     </div>
 </body>
 
