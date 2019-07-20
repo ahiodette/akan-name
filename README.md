@@ -12,7 +12,7 @@ So, even people from elsewhere, using this app, can TRACK and know which name sh
 * Click where it is written "Get your Akan-name" and read the provided result
 
 ## Link to the live site:
-
+https://ahiodette.github.io/akan-name/
 
 ## BDD
 **Insert (or select using calendar) your Birth day, month and year**
