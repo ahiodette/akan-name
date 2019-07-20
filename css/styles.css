@@ -19,6 +19,9 @@ font-size: 22px;
 button{
     background-color: lightblue;
 }
-#result>p{
+#display{
     color: blue;
+    font-family: fantasy;
+    background-color: white;
+    font-size: 22px;
 }
