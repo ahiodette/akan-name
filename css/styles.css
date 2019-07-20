@@ -1,27 +1,48 @@
 .jumbotron{
     background-color: aliceblue;
     box-shadow: 5px 0 5px 0;
+    margin-top: 8px;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .jumbotron>h1{
-    color: blue;
+    color: rgb(236, 157, 219);
     text-align: center;
     font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
 }
 .forms{
+    background-image: url('mother.jpg');
     text-align: center;
     border: 3px solid aliceblue;
-    background-color: azure;
+    background-color:white;
+    box-shadow: 5px 0 5px 0;
+    margin-top: 0;
+    width: 800px;
+    margin-left: 200px;
+    margin-bottom: 10px; margin-top: 5px;
 }
 .forms>p, .forms>form{
 font-size: 22px;
 }
 
 button{
-    background-color: lightblue;
+    background-color: rgb(230, 173, 221);
 }
 #display{
-    color: blue;
+    color: rgb(236, 157, 219);
     font-family: fantasy;
     background-color: white;
     font-size: 22px;
+}
+.container{
+    background-image: url('http://www.teamopenoffice.org/pimages/130/1308379/new-born-baby-wallpaper.jpg');
+    background-size: contain;
+    overflow: auto;
+}
+body{
+    background-image: url('http://www.teamopenoffice.org/pimages/130/1308378/new-born-baby-wallpaper.jpg');
+    background-size: cover;
 }
