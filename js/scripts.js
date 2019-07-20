@@ -18,15 +18,12 @@ function giveName() {
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     if (gender === "male") {
-        console.log("You were born on " + daysOfWeek[bornDay - 1] + ". So, your name should be " + maleNames[bornDay - 1]);
-        document.getElementById("display").innerHTML = "You were born on " + daysOfWeek[i - 1] + ". So, your name should be " + maleNames[i - 1];
+        document.getElementById("display").innerHTML = "You were born on " + daysOfWeek[bornDay - 1] + ". So, your name should be " + maleNames[bornDay - 1];
     }
     else if (gender === "female") {
-        console.log("You were born on " + daysOfWeek[bornDay - 1] + ". So, your name should be " + femaleNames[bornDay - 1]);
-        document.getElementById("display").innerHTML = "You were born on " + daysOfWeek[i - 1] + ". So, your name should be " + femaleNames[i - 1];
+        document.getElementById("display").innerHTML = "You were born on " + daysOfWeek[bornDay - 1] + ". So, your name should be " + femaleNames[bornDay - 1];
     }
     else {
-        console.log("Invalid input");
         document.getElementById("display").innerHTML = "Invalid input";
     }
 
