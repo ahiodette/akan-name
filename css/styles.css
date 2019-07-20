@@ -20,9 +20,10 @@
     background-color:white;
     box-shadow: 5px 0 5px 0;
     margin-top: 0;
-    width: 800px;
-    margin-left: 200px;
     margin-bottom: 10px; margin-top: 5px;
+    float: right;
+    border-radius: 20px;
+    padding-left: 7px;
 }
 .forms>p, .forms>form{
 font-size: 22px;
@@ -32,7 +33,7 @@ button{
     background-color: rgb(230, 173, 221);
 }
 #display{
-    color: rgb(236, 157, 219);
+    color: rgb(243, 134, 219);
     font-family: fantasy;
     background-color: white;
     font-size: 22px;
@@ -41,8 +42,14 @@ button{
     background-image: url('http://www.teamopenoffice.org/pimages/130/1308379/new-born-baby-wallpaper.jpg');
     background-size: contain;
     overflow: auto;
+    width: 1000px;
+    height: 800px;
 }
 body{
-    background-image: url('http://www.teamopenoffice.org/pimages/130/1308378/new-born-baby-wallpaper.jpg');
+    background-color: aliceblue;
     background-size: cover;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
 }
